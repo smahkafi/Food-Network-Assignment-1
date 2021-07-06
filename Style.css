@@ -1,3 +1,49 @@
 body{
     font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
+#top-bar{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0;
+    background-color: #F3EFEE;
+    display: flex;
+}
+.top{
+    width: 50%;
+    padding-left: 60px;
+    padding-right: 60px;
+    box-sizing: border-box;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+ul li{
+    display: inline-block;
+}
+.social-icons{
+    text-align: right;
+}
+.logo img{
+    width: 60px;
+    height: 35px;
+}
+.social-icons img{
+    position: relative;
+    width: 30px;
+    height: 30px;
+}
+#banner{
+    width: 100%;
+    display: flex;
+}
+.half-width{
+    padding-left: 100px;
+    padding-right: 100px;
+    box-sizing: border-box;
+    width: 50%;
+}
+
