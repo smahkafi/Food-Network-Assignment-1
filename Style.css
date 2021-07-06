@@ -13,7 +13,7 @@ body{
 }
 .top{
     width: 50%;
-    padding-left: 60px;
+    padding-left: 120px;
     padding-right: 60px;
     box-sizing: border-box;
 }
@@ -32,18 +32,57 @@ ul li{
     height: 35px;
 }
 .social-icons img{
-    position: relative;
     width: 30px;
     height: 30px;
 }
 #banner{
+    padding-bottom: 50px;
     width: 100%;
     display: flex;
 }
 .half-width{
-    padding-left: 100px;
+    margin: auto;
+    padding-top: 100px;
+    padding-left: 120px;
     padding-right: 100px;
     box-sizing: border-box;
     width: 50%;
 }
-
+.half-width h1{
+    margin: 0;
+    padding-bottom: 80px;
+    font-size: 75px;
+    color: #6b6868;
+}
+.half-width span{
+    color: orange;
+}
+.half-width p{
+    margin: 0;
+    padding-bottom: 70px;
+    color: rgb(119, 118, 115);
+    font-size: 32px;
+}
+.half-width a{
+    text-decoration: none;
+    
+}
+.half-width .link-button{
+    background-image: linear-gradient(rgb(228, 155, 20), rgb(233, 24, 24));
+    padding: 25px 55px;
+    color: white;
+    font-size: 25px;
+    border-radius: 60px;
+    font-weight: 500;
+    box-shadow: 10px 10px 40px rgb(241, 230, 207);
+}
+.half-width img{
+    width: 100%;
+}
+#about{
+    width: 100%;
+    display: flex;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
