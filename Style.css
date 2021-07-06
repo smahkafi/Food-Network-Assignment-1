@@ -78,11 +78,35 @@ ul li{
 }
 .half-width img{
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 #about{
+    margin-bottom: 50px;
     width: 100%;
     display: flex;
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+.about-img img{
+    width: 500px;
+}
+#blog{
+    width: 100%;
+}
+#blog h1{
+    text-align: center;
+    font-size: 55px;
+}
+.blog-container{
+    width: 100%;
+    display: flex;
+}
+.blog-section{
+    width: 33.33%;
+    padding: 15px;
+}
+.blog-container img{
+    width: 100%;
 }
